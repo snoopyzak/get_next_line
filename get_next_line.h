@@ -6,8 +6,6 @@
 # include <stdio.h>
 # include <unistd.h>
 
-# define BUFFER_SIZE 42
-
 char	*get_next_line(int fd);
 char	*ft_strjoin(char *line, char *buff);
 char	*ft_strchr(char *s, int c);
